@@ -12,8 +12,8 @@ public class a_UnderstandingfindElement {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
-		WebElement emailTextBox = driver.findElement(By.id("email"));
-		emailTextBox.sendKeys("amruta@gmail.com");
+WebElement emailTextbox = driver.findElement(By.id("email"));
+		emailTextbox.sendKeys("amruta@gmail.com");
 		WebElement passwordTextBox = driver.findElement(By.id("pass"));
 		passwordTextBox.sendKeys("amruta");
 		driver.findElement(By.name("login")).click();
